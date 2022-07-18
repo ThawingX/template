@@ -1,20 +1,20 @@
 <p align='center'>
-  <img src='https://raw.githubusercontent.com/ThawingX/images/master/cat%26dog.png' alt='Vitesse - Opinionated Vite Starter Template' width='400'/>
+  <img src='https://raw.githubusercontent.com/ThawingX/images/master/cat%26dog.png' alt='Vitesse - Opinionated Vite Starter Template' width='300'/>
 </p>
 
 <p align='center'>
   The repo will have more tempaltes , currently only vue3-unocss, you can see other in git-branch
 </p>
-<!-- <h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
-</h6> -->
+<h6 align='center'>
+<a href="https://vue-unocss-template.netlify.app/">Live Demo</a>
+</h6>
 
 
-<br>
 
-<!-- < align='center'>
-<b>English</b> | <a href="https://github.com/antfu/vitesse-lite/blob/main/README.zh-CN.md">简体中文</a>
-<!-- Contributors: Thanks for geting interested, however we DON'T accept new transitions to the README, thanks. -->
+<p align='center'>
+<b>English</b> | <a href="https://github.com/ThawingX/template/blob/vue-unocss/README.zh-CN.md">简体中文</a>
+</p>
+
 
 ## Features
 
@@ -57,7 +57,7 @@
 ### Clone to local
 
 ```bash
-git clone git@github.com:ThawingX/template.git
+git clone -b vue-unocss git@github.com:ThawingX/template.git
 cd template
 pnpm i # or npm i
 ```
