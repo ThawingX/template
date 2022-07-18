@@ -2,85 +2,63 @@
   <img src='https://raw.githubusercontent.com/ThawingX/images/master/cat%26dog.png' alt='Vitesse - Opinionated Vite Starter Template' width='400'/>
 </p>
 
-<h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">在线 Demo</a>
-</h6>
-
-<h5 align='center'>
-<b>轻量版的 <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
-</h5>
-
-<br>
-
 <p align='center'>
-<a href="https://github.com/antfu/vitesse-lite/blob/main/README.md">English</a> | <b>简体中文</b>
+  这个仓库将会有更多的模板，目前只有vue3-unocss
 </p>
+<!-- <h6 align='center'>
+<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
+</h6> -->
+
 
 <br>
+
+<!-- < align='center'>
+<b>English</b> | <a href="https://github.com/antfu/vitesse-lite/blob/main/README.zh-CN.md">简体中文</a>
+<!-- Contributors: Thanks for geting interested, however we DON'T accept new transitions to the README, thanks. -->
 
 ## 特性
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - 就是快！
+- ⚡ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild)
 
-- 🗂 [基于文件的路由](./src/pages)
+- 🛂 [File based routing](./src/pages)
 
-- 📦 [组件自动化加载](./src/components)
+- 🛄 [Components auto importing](./src/components)
 
-- 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
+- 🧩 [UnoCSS](https://github.com/antfu/unocss) 
 
-- 😃 [各种图标集为你所用](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-- 🔥 使用 [新的 `<script setup>` 语法](https://github.com/vuejs/rfcs/pull/227)
+- 🚩 支持Typescript
 
-- ✅ 使用 [Vitest](http://vitest.dev/) 进行单元和组件测试
 
-- 🦾 TypeScript, 当然
-
-- ☁️ 零配置部署 Netlify
 
 <br>
 
-完整特性,请查看 [Vitesse](https://github.com/antfu/vitesse)
+## 预处理引擎
 
-## 从 [Vitesse](https://github.com/antfu/vitesse) 中删除了以下特性
+### UI 
 
-- ~~i18n~~
-- ~~Layouts~~
-- ~~SSG~~
-- ~~PWA~~
-- ~~Markdown~~
+- [UnoCSS](https://github.com/antfu/unocss) - antfu大佬的unocss原子化css引擎
 
-## 预配置
+### 图标
 
-### UI 框架
-
-- [UnoCSS](https://github.com/antfu/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
-
-### Icons
-
-- [Iconify](https://iconify.design) - 使用任意的图标集，浏览：[🔍Icônes](https://icones.netlify.app/)
-- [UnoCSS 的纯 CSS 图标方案](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- [Iconify](https://iconify.design) - 默认使用carbon图标库，使用方法直接根据unocss说明即可
 
 ### 插件
 
 - [Vue Router](https://github.com/vuejs/vue-router)
-  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - 以文件系统为基础的路由
-- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 等，无需导入
-- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - 自动加载组件
-- [VueUse](https://github.com/antfu/vueuse) - 实用的 Composition API 工具合集
+  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - 基于文件自动生成的路由，默认路径为~/src/pages
 
-## 现在可以试试!
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - 自动导入vue组件，默认路径为~/src/components
 
-### GitHub 模板
+- [VueUse](https://github.com/antfu/vueuse) - 支持VueUse
 
-[使用这个模板创建仓库](https://github.com/antfu/vitesse-lite/generate).
+## 试一试吧
 
+- 其他使用方法，在项目中README可以看到
 ### 克隆到本地
 
-如果您更喜欢使用更干净的 git 历史记录手动执行此操作
-
 ```bash
-npx degit antfu/vitesse-lite my-vitesse-app
-cd my-vitesse-app
-pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
+git clone git@github.com:ThawingX/template.git
+cd template
+pnpm i # or npm i
 ```
