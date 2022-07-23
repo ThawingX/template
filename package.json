@@ -1,8 +1,8 @@
 {
-  "name": "template-tx-vue",
-  "version": "1.0.0",
-  "description": "tx-template at vue",
-  "main": "index.js",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "main": "{{main}}",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
     "@vueuse/core": "^8.9.4",
